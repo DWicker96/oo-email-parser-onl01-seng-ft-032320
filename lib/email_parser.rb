@@ -4,7 +4,7 @@ class EmailParser
   email_array = []
   def  initialize(emails)
     @email = emails
-    
+
   end
 
   def parse
