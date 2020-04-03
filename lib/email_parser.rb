@@ -1,9 +1,10 @@
 class EmailParser
 
   attr_accessor :email
+  email_array = []
   def  initialize(emails)
     @email = emails
-    email_array = []
+    
   end
 
   def parse
